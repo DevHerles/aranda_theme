@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="assets_backend" inherit_id="web.assets_backend" name="aranda_theme assets">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Poppins|Nunito:400,500,600,700"/>
+                <!--<link rel="stylesheet" href="/aranda_theme/static/src/sass/aranda.theme.scss" type="text/sass"/>-->
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/aranda_variables.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/variables.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/tree_view.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/form_view.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/form_view_extra.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/form_view_layout_extra.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/kanban_view.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/control_panel.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/thread.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/navs.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/tables.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/list_view.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/form_view_layout.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/webclient_layout.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/less/dropdown.less" type="text/less"/>
+                <link rel="stylesheet" href="/aranda_theme/static/src/sass/aranda.theme.scss.css"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

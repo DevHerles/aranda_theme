@@ -1,0 +1,34 @@
+@aranda-form-sheet-background: #1b191b;
+@aranda-border-color: #313131;
+@aranda-input-required-background-color: #d6a779;
+@aranda-primary-color: #c0702f;
+@aranda-form-label-color: #525252;
+@aranda-breadcrumb-color: @aranda-primary-color;
+@aranda-horizontal-separator-color: darken(@aranda-primary-color, .1);
+@aranda-menu-item-background-color: #1b191b;
+@aranda-secondary-menu-section: @aranda-primary-color;
+
+input[type="text"], input[type="password"], input[type="number"], textarea, select {
+    background: @odoo-brand-secondary;
+    border-color: @aranda-border-color;
+    color: orange;
+}
+.btn-icon,
+.btn-default {
+    color: @aranda-primary-color;
+    background-color: inherit;
+    border-color: @aranda-primary-color;
+    &:active:focus,
+    &:active,
+    &:focus,
+    &:hover {
+      color: #232223;
+      background-color: @aranda-primary-color;
+      border-color: @aranda-primary-color; }
+}
+.o_searchview {
+    background-color: inherit;
+    border: 1px solid @aranda-primary-color;
+    border-radius: 3px;
+    padding: 1px 25px 3px 5px;
+}
